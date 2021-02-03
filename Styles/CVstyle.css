@@ -1,0 +1,186 @@
+/*Définition de police personnalisée*/
+
+@font-face
+{
+    font-family: 'anaphora-extralightitalic';
+    src: url("../anaphora-extralightitalic-webfont.woff2") format('woff2'),
+         url('../anaphora-extralightitalic-webfont.woff') format('woff');
+}
+
+/*Eléments principaux de la page*/
+
+body
+{ 
+    background-image: url("../Images/baikal.jpg");;
+    background-repeat: no-repeat;
+}
+
+section
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    color: #283743;
+
+}
+a:hover
+{
+    text-decoration: overline;
+    color: #453E38;
+}
+
+.souligne
+{
+    text-decoration-line: underline;
+}
+
+/*Bloc page*/
+
+#bloc_page
+{
+    width: 90%;
+    margin-left: 5%;
+    font-family: "anaphora-extralightitalic", serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#photo 
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 5px;
+
+}
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left; 
+}
+
+h1
+{
+        color: #2a4862; 
+        font-size: 1.8em;
+        font-style: normal;
+}
+
+h2
+{
+        color: slateblue;
+        font-size: 1.5em;
+        font-style: oblique;
+        text-decoration-line: underline;
+}
+
+#coordonnées
+{
+    display: flex;
+
+}
+
+/*Navigation*/
+
+Nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin: 15px;
+}
+
+#Présentation
+
+.dessous{
+    clear: both;
+}
+
+mark{
+    background-color: gray;
+    font-family: "anaphora-extralightitalic"; 
+    text-align: justify;
+    width: auto;
+    margin: auto;
+}
+
+.imageflottante{
+    float: right;
+}
+
+.profession{
+    color: #2a4862; 
+}
+
+/*Corps*/
+
+section
+{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+margin: auto;
+
+}
+
+h3{ 
+    color: #2a4862; 
+    font-size: 1.5em;
+}
+
+em{
+    border-width: 0.2em;
+    border-color: #5e6469;
+    border-style: solid;
+    box-shadow: 1px 1px 0px #778794;
+}
+
+#Compétences
+{
+    display: flex;
+}
+
+#Expériences_professionnelles
+{
+    display: flex;
+}
+
+#Formation
+{
+    display: flex;
+}
+
+/*Pied de page*/
+
+footer{
+    color: #2a4862;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 1em;
+    border: 1px dashed black;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    display: flex;
+}
+
+footer ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 25px;
+    list-style-type: none;
+}
+
+footer li
+{
+    margin: 15px;
+}
