@@ -1,0 +1,102 @@
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+@media all and (max-device-width: 480px)
+
+a:hover
+{
+    text-decoration: none;
+}
+
+
+/*Header*/
+
+header
+{
+    width: auto;
+    margin-left: 1%;
+    margin-right: 1%;   
+}
+
+#photocoord 
+{
+    margin-left: 1px; 
+}
+
+mark
+{
+    font-size: small;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.imageflottante
+{
+    float: none;
+}
+
+h1
+{
+    font-size: 1.2em;
+}
+
+h2
+{
+    font-size: 1.1em;
+}
+
+h1, h2
+{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+
+/*Navigation*/
+
+nav ul
+{
+    width: auto;
+}
+
+nav li
+{
+    margin: 10px;
+}
+
+/*Corps*/
+
+section
+{ 
+    display: flex;
+    flex-direction: column;
+    font-size: xx-small; 
+    margin-left: 1%;  
+}
+
+#compform
+{
+    font-size: x-small;
+    margin-left: 1%;
+}
+h3
+{ 
+    font-size: 1em;
+}
+
+em{
+    border-width: thin;
+}
+
+/*Pied de page*/
+
+ footer ul
+ {
+   
+    font-size: 0.8em;
+   
+}
+
+
+footer li
+{
+    margin: 5px;
+}

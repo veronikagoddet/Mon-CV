@@ -12,17 +12,9 @@
 body
 { 
     background-image: url("../Images/baikal.jpg");;
-    background-repeat: no-repeat;
+    background-repeat: inherit;
 }
 
-section
-{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: normal;
-    text-align: justify;
-    color: #283743;
-
-}
 a:hover
 {
     text-decoration: overline;
@@ -52,18 +44,16 @@ header
     flex-direction: row;
     margin-left: 5px;
     justify-content: space-between;
-
 }
 
 mark{
-    background-color: gray;
+    background-color: #bdc4ca;
     font-family: "anaphora-extralightitalic"; 
     text-align: justify;
     color: #283743;
     display: flex;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 5%;
     text-align: justify;
 }
 .dessus
@@ -78,17 +68,17 @@ mark{
 
 h1
 {
-        color: #2a4862; 
-        font-size: 1.8em;
-        font-style: normal;
+    color: #2a4862; 
+    font-size: 1.8em;
+    font-style: normal;
 }
 
 h2
 {
-        color: slateblue;
-        font-size: 1.5em;
-        font-style: oblique;
-        text-decoration-line: underline;
+    color: slateblue;
+    font-size: 1.5em;
+    font-style: oblique;
+    text-decoration-line: underline;
 }
 
 h1, h2
@@ -96,7 +86,6 @@ h1, h2
     display: flex;
     justify-content: center;
     margin: 0%;
-    ;
 }
 
 /*Navigation*/
@@ -116,26 +105,29 @@ nav li
 
 /*Corps*/
 
+section
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    text-align: justify;
+    color: #1f2931;   
+    display: flex;
+    justify-content: space-evenly;
+    font-size: small; 
+    margin-left: 5%;  
+}
+
 #compform
 {
     display: flex;
     flex-direction: column;
     font-size: small;
     margin-left: 5%;
-    width: 30%;
-
-}
-
-section
-{
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
 }
 
 h3{ 
     color: #2a4862; 
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 em{
@@ -145,22 +137,12 @@ em{
     box-shadow: 1px 1px 0px #778794;
 }
 
-#experiences
-{
-    display: flex;
-    flex-direction: column;
-    font-size: small;
-    align-self: flex-end;
-    width: 30%;
-}
-
-
 /*Pied de page*/
 
  footer ul
  {
     color: #2a4862;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifS;
     font-weight: bold;
     font-style: italic;
     text-decoration: underline;
